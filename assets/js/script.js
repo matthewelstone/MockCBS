@@ -87,9 +87,13 @@ function next(){
 
 }
 
+startButton.addEventListener("click", startTest);
 
-
-window.onload = function(){
+function startTest(){
+    startButton.classList.add("hide");
+    home.classList.add("hide");
+    questionElement.classList.remove("hide")
+    nextButton.classList.remove("hide");
 
     setAvailableQuestions();
     newQuestion();
