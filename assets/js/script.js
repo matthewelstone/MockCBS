@@ -55,6 +55,7 @@ const score = document.getElementById("score");
 let questionCounter = 0;
 let currentQuestion ;
 let availableQuestions = [];
+let availableOptions = [];
 
 function setAvailableQuestions(){
         const totalQuestions = questions.length;
@@ -73,6 +74,16 @@ questionElement.innerHTML = currentQuestion.question;
 
 const index1 = availableQuestions.indexOf(questionIndex);
 availableQuestions.splice(index1,1);
+const optionsLength = currentQuestion.options.length;
+
+for(let i=0; i<optionsLength; i++){
+    const option = document.createElement("div");
+    option.innerHTML = currentQuestion.options[i];
+    option.id = i;
+    option.className = "option";
+    options.appendChild(option);
+}
+
 questionCounter++;
 }
 
