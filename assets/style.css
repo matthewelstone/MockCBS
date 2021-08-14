@@ -3,3 +3,13 @@
 .hide{
     display: none;
 };
+
+
+.correct{
+    background-color: #2EFF2E;
+    color:black;
+    font-size: 100px;
+}
+.false{
+    background-color: red;
+}
