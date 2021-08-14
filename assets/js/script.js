@@ -47,9 +47,9 @@ const startButton = document.getElementById("start-test");
 const home = document.getElementById("home");
 const questionBox = document.getElementById("test-container");
 const questionNumber = document.getElementById("question-number");
-const questionElement = document.getElementById("question-container");
+const questionElement = document.getElementById("question-text");
 const options = document.getElementById("options");
-const nextButton = document.getElementById("submit-div");
+const nextButton = document.getElementById("next-div");
 const score = document.getElementById("score");
 
 let questionCounter = 0;
@@ -59,13 +59,40 @@ let availableQuestions = [];
 function setAvailableQuestions(){
         const totalQuestions = questions.length;
         for(let i=0; i<totalQuestions; i++){
-            console.log(questions[i])
+            availableQuestions.push(questions[i]);
         }
 };
+
+
+function newQuestion(){
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " +questions.length;
+
+const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+currentQuestion = questionIndex;
+questionElement.innerHTML = currentQuestion.question;
+
+const index1 = availableQuestions.indexOf(questionIndex);
+availableQuestions.splice(index1,1);
+questionCounter++;
+}
+
+nextButton.addEventListener("click", next)
+
+function next(){
+    if(questionCounter === questions.length){
+        console.log("Test over");
+    } else{
+        newQuestion();
+    }
+
+}
+
+
 
 window.onload = function(){
 
     setAvailableQuestions();
+    newQuestion();
 }
 
 
