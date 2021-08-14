@@ -76,16 +76,35 @@ const index1 = availableQuestions.indexOf(questionIndex);
 availableQuestions.splice(index1,1);
 const optionsLength = currentQuestion.options.length;
 
+for(let i=0;i<optionsLength; i++){
+    availableOptions.push(i);
+}
+options.innerHTML="";
 for(let i=0; i<optionsLength; i++){
+    const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];
+    const index2 = availableOptions.indexOf(optionIndex);
+    availableOptions.splice(index2,1);
+    
     const option = document.createElement("div");
     option.innerHTML = currentQuestion.options[i];
     option.id = i;
     option.className = "option";
     options.appendChild(option);
-}
-
+    option.setAttribute("onclick","getResult(this)");
+    }
 questionCounter++;
 }
+
+function getResult(optionElement){
+    const id = parseInt(optionElement.id);
+    if(id === currentQuestion.answer){
+        optionElement.classList.add("correct");
+    } 
+    else {
+        optionElement.classList.add("wrong");
+    };
+};
+
 
 nextButton.addEventListener("click", next)
 

@@ -12,3 +12,10 @@
     border: solid black 2px;
     margin: 2px;
 }
+
+.correct{
+    background-color:green;
+};
+.wrong{
+    background-color:red;
+};
