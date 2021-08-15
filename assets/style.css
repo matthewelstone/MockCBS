@@ -2,7 +2,7 @@
 /* hide for js */ 
 .hide{
     display: none;
-};
+}
 
 #0, #1, #2, #3{
     padding:10px;
@@ -15,7 +15,12 @@
 
 .correct{
     background-color:green;
-};
+}
+
 .wrong{
-    background-color:red;
-};
+    background-color: red;
+}
+
+.already-answered{
+    pointer-events: none;
+}

@@ -102,9 +102,24 @@ function getResult(optionElement){
     } 
     else {
         optionElement.classList.add("wrong");
-    };
-};
 
+        const optionLength = options.children.length;
+    for(let i=0; i<optionLength; i++){
+        if(parseInt(options.children[i].id) === currentQuestion.answer){
+           options.children[i].classList.add("correct"); 
+        }
+    
+        }
+    };
+    alreadyAnswered();
+
+};
+function alreadyAnswered(){
+    const optionLength = options.children.length;
+    for(let i=0; i<optionLength; i++){
+        options.children[i].classList.add("already-answered");
+    }
+}
 
 nextButton.addEventListener("click", next)
 
