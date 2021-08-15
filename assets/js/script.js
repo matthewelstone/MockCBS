@@ -51,11 +51,15 @@ const questionElement = document.getElementById("question-text");
 const options = document.getElementById("options");
 const nextButton = document.getElementById("next-div");
 const score = document.getElementById("score");
+const resultsContainer = document.getElementById("results-container");
+
 
 let questionCounter = 0;
 let currentQuestion ;
 let availableQuestions = [];
 let availableOptions = [];
+let correctAnswers = 0 ;
+let wrongAnswers = 0 ;
 
 function setAvailableQuestions(){
         const totalQuestions = questions.length;
@@ -99,16 +103,18 @@ function getResult(optionElement){
     const id = parseInt(optionElement.id);
     if(id === currentQuestion.answer){
         optionElement.classList.add("correct");
+        correctAnswers++;
+        console.log("correct:", correctAnswers);
     } 
     else {
         optionElement.classList.add("wrong");
+        wrongAnswers++;
 
         const optionLength = options.children.length;
     for(let i=0; i<optionLength; i++){
         if(parseInt(options.children[i].id) === currentQuestion.answer){
            options.children[i].classList.add("correct"); 
         }
-    
         }
     };
     alreadyAnswered();
@@ -126,11 +132,19 @@ nextButton.addEventListener("click", next)
 function next(){
     if(questionCounter === questions.length){
         console.log("Test over");
+        testFinished();
     } else{
         newQuestion();
     }
+}
+
+function testFinished(){
+    questionBox.classList.add("hide");
+    nextButton.classList.add("hide");
+    resultsContainer.classList.remove("hide");
 
 }
+
 
 startButton.addEventListener("click", startTest);
 
