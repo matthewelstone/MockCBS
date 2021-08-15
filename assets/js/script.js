@@ -53,6 +53,11 @@ const nextButton = document.getElementById("next-div");
 const score = document.getElementById("score");
 const resultsContainer = document.getElementById("results-container");
 
+let numberOfQuestions = document.getElementById("total-number-of-questions");
+let correctInTable = document.getElementById("display-correct-answers");
+let wrongInTable = document.getElementById("display-wrong-answers");
+let percentage = document.getElementById("display-percentage");
+let finalScore = document.getElementById("total-score");
 
 let questionCounter = 0;
 let currentQuestion ;
@@ -142,6 +147,15 @@ function testFinished(){
     questionBox.classList.add("hide");
     nextButton.classList.add("hide");
     resultsContainer.classList.remove("hide");
+    displayResults();
+}
+
+function displayResults(){
+    numberOfQuestions.innerHTML = questions.length; 
+    correctInTable.innerHTML = correctAnswers;
+    wrongInTable.innerHTML = wrongAnswers;
+    percentage.innerHTML = (correctAnswers/questions.length)*100 +"%";
+    finalScore.innerHTML = correctAnswers + "/" + questions.length;
 
 }
 
