@@ -15,7 +15,7 @@
     padding: 15px 15px 15px 5px;
 }
 h1,h2,h4,h5{
-    font-family: "Hahmlet";
+    font-family: "Hahmlet", 'Times New Roman', Times, serif;
 }
 
 /*----------------- Rules Modal */
@@ -49,6 +49,9 @@ h1,h2,h4,h5{
     color:black;
     text-decoration: none;
     cursor: pointer;
+}
+.rules-list{
+    font-family: "Hahmlet", 'Times New Roman', Times, serif ;
 }
 
 
