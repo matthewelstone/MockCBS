@@ -61,7 +61,7 @@ const questions = [
         options:["Buttery",
                 "Skunky",
                 "Papery",
-                "vinegary"],
+                "Vinegary"],
         answer:1
     },
     {
@@ -81,7 +81,7 @@ const questions = [
         answer:0
     },
     {
-        question:"It's primarily better to drink beer from a glass rather than a bottle or a can because:",
+        question:"It's primarily better to drink beer from a glass rather than a bottle or a can because?",
         options:["The presentation is nicer for the consumer",
                 "The beer is less likely to skunk",
                 "The consumer will experience more of the aroma",
@@ -159,6 +159,150 @@ const questions = [
                 "24 hours",
                 "48 hours"],
         answer:2
+    },
+    {
+        question:"One of the most common causes of beer that is overly foamy at the tap is?",
+        options:["The beer is too warm",
+                "Bartenders dunking the tap in beer",
+                "The beer is too cold",
+                "Bartenders Pulling the tap all the way down"],
+        answer:0
+    },
+    {
+        question:"Which statement is the most accurate?",
+        options:["American ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruitly character,  while many Belgian ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "British ale yeast strains are typically quite 'clean', German ale yeast strains commonly create a more fruitly character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "Belgian ale yeast strains are typically quite 'clean', American ale yeast strains commonly create a more fruitly character,  while many British ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "German ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruitly character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics"],
+        answer:0
+    },
+    {
+        question:"Which glass is most appropriate for a Barleywine?",
+        options:["Stemmed tulip",
+                "Shaker pint",
+                "Snifter",
+                "Nonic imperial pint"],
+        answer:2
+    },
+    {
+        question:"Which glass is most appropriate for a British Mild?",
+        options:["Stemmed tulip",
+                "Shaker pint",
+                "Snifter",
+                "Nonic imperial pint"],
+        answer:3
+    },
+    {
+        question:"Which glass is most appropriate for a American IPA?",
+        options:["Stemmed tulip",
+                "Shaker pint",
+                "Snifter",
+                "Nonic imperial pint"],
+        answer:1
+    },
+    {
+        question:"Which glass is most appropriate for a Belgian Tripel?",
+        options:["Stemmed tulip",
+                "Shaker pint",
+                "Snifter",
+                "Nonic imperial pint"],
+        answer:0
+    },
+    {
+        question:"Hops grow on?",
+        options:["Catkins",
+                "Vines",
+                "Bushes",
+                "Bines"],
+        answer:3
+    },
+    {
+        question:"The primary purposes for cleaning the draft line is?",
+        options:["Rid them of foreign microbes and beer stone",
+                "Rid them of the flavour of the previous beer and beer stone",
+                "Rid them of skunky and papery off flavours",
+                "Rid them of foreign microbes and the flavour of the previous beer that was on draft"],
+        answer:0
+    },
+    {
+        question:"In the three tier system for alcohol sales, a Wholesaler can sell beer to?",
+        options:["Consumers",
+                "Retailers",
+                "Breweries",
+                "Importers"],
+        answer:1
+    },
+    {
+        question:"Keg couplers:",
+        options:["Must be vented each time you change a keg on that beer line",
+                "Must be cleaned every three months",
+                "Let gas in to the keg and beer out of the keg",
+                "Attach to the faucet"],
+        answer:2
+    },
+    {
+        question:"Which of these beers is a showcase for flavours that come from malt?",
+        options:["British Bitter",
+                "Wee Heavy",
+                "Saison",
+                "American IPA"],
+        answer:1
+    },
+    {
+        question:"Which is a style associated with Trappist breweries?",
+        options:["Saison",
+                "Doppelbock",
+                "Dubbel",
+                "Flanders Red"],
+        answer:3
+    },
+    {
+        question:"This dark UK ale has low to moderate perceived bitterness, is dark brown to black in colour, and has a lower to normal ABV?",
+        options:["British Mild",
+                "Sweet Stout",
+                "Irish Stout",
+                "Dutch Porter"],
+        answer:1
+    },
+    {
+        question:"Which Belgian style is typically made with coriander and orange peel?",
+        options:["Saison",
+                "Dubbel",
+                "Belgian Blond",
+                "Wit"],
+        answer:3
+    },
+    {
+        question:"Which American ale has highly assertive perceived bitterness, is light amber to light brown in colour, and has a high to very high ABV?",
+        options:["American Barleywine",
+                "Imperial IPA",
+                "American Imperial Stout",
+                "AMerican Brown Ale"],
+        answer:0
+    },
+    {
+        question:"Whih is most true?",
+        options:["German hafeweizens have a 'clean' yeast character, whereas American wheat beer has clove and banana yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
+                "German hafeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range",
+                "German hafeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character and can be slightly hoppier. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
+                "German hafeweizens have a clove and banana yeast character and can be slightly hoppier, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range"],
+        answer:2
+    },
+    {
+        question:"Which style is associated with the Rhine Valley of Germany?",
+        options:["Kolsch",
+                "Marzen",
+                "Helles bock",
+                "Hefeweizen"],
+        answer:0
+    },
+    {
+        question:"Which style is typically the least tart, sour or acidic?",
+        options:["Gueuze",
+                "Kriek",
+                "Flanders Red",
+                "Dubbel"],
+        answer:3
     }
 ]
 //-----adding constants 
