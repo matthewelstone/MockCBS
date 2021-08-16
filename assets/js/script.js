@@ -40,7 +40,126 @@ const questions = [
                 "Carbonation"],
         answer:2
     },
-    
+    {
+        question:"Which beer style typically has the highest ABV?",
+        options:["Marzen",
+                "Doppelbock",
+                "Munich Dunkel",
+                "Lambic"],
+        answer:1
+    },
+    {
+        question:"Which of these beer styles is golden in colour?",
+        options:["Wit",
+                "Munich Dunkel",
+                "Tripel",
+                "California Common"],
+        answer:2
+    },
+    {
+        question:"When a beer is light struck, it will have an off-flavour described as?",
+        options:["Buttery",
+                "Skunky",
+                "Papery",
+                "vinegary"],
+        answer:1
+    },
+    {
+        question:"A general description of the flavour combination of American hops is?",
+        options:["Floral & perfumey",
+                "Earthy & woody",
+                "Tropical & fruit like",
+                "Citrusy & piney"],
+        answer:3
+    },
+    {
+        question:"Which beer has a yeast profile typically described as peppery?",
+        options:["Saison",
+                "American Brown Ale",
+                "Hefeweizen",
+                "Gueuze"],
+        answer:0
+    },
+    {
+        question:"It's primarily better to drink beer from a glass rather than a bottle or a can because:",
+        options:["The presentation is nicer for the consumer",
+                "The beer is less likely to skunk",
+                "The consumer will experience more of the aroma",
+                "It's less likely to spill"],
+        answer:2
+    },
+    {
+        question:"Which is not a primary flavour?",
+        options:["Bitter",
+                "Roast",
+                "Sour",
+                "Sweet"],
+        answer:1
+    },
+    {
+        question:"Which off-flavour are you most likely to encounter if a draft system has not been properly cleaned?",
+        options:["Buttery",
+                "Skunky",
+                "Papery",
+                "Astringent"],
+        answer:0
+    },
+    {
+        question:"How often must a draft system be cleaned?",
+        options:["Once a week",
+                "Every two weeks",
+                "Once a month",
+                "Every three months"],
+        answer:1
+    },
+    {
+        question:"What's the affect of serving a beer too cold?",
+        options:["The consumer will experience less aroma and flavour",
+                "It will be overly foamy at the tap",
+                "It will taste sweeter",
+                "It will bring out the aroma of the beer"],
+        answer:0
+    },
+    {
+        question:"What should a retailer do when they discover they have a beer in inventory that is beond its best by date?",
+        options:["Put it on sale to move it quickly",
+                "Rotate the inventory so there is fresher beer for sale",
+                "Remove it from inventory",
+                "Blend it with fresh beer and put it on draft"],
+        answer:2
+    },
+    {
+        question:"Why shouldn't you dunk the faucet in the glass of beer when pouring draft beer?",
+        options:["You won't get enough head on beer",
+                "You may accidently pour some beer over the side of the glass and create waste",
+                "It's lazy and looks bad to the customer",
+                "There will be cross contamination, it creates a breeding ground for bacteria"],
+        answer:3
+    },
+    {
+        question:"What is one way to check if a glass is beer clean when it is full of beer?",
+        options:["Check for buttery and vinegary off-flavours in the beer",
+                "Check to see if salt will stick evenly off the inside of the glass",
+                "Check to see if water will sheet evenly off the inside of the glass",
+                "Check for the formation of bubbles along the inside of the glass"],
+        answer:3
+    },
+    {
+        question:"At what BAC level is someone too incapacitated to drive?",
+        options:["0.80 BAC",
+                "0.08 BAC",
+                "0.008 BAC",
+                "8.0 BAC"],
+        answer:1
+    },
+    {
+        question:"At least how long should a keg be put in a cooler before it is served from?",
+        options:["4 hours",
+                "10 hours",
+                "24 hours",
+                "48 hours"],
+        answer:2
+    }
 ]
 //-----adding constants 
 const startButton = document.getElementById("start-test");
