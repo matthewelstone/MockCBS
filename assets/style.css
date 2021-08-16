@@ -56,6 +56,12 @@ h1,h2,h4,h5{
 
 
 
+
+.timer{
+    text-align: right;
+
+}
+
 .option{
     padding:10px;
     border: solid black 2px;

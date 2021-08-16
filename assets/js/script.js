@@ -39,7 +39,7 @@ const questions = [
                 "Bitterness",
                 "Carbonation"],
         answer:2
-    },/*
+    },
     {
         question:"Which beer style typically has the highest ABV?",
         options:["Marzen",
@@ -467,7 +467,7 @@ const questions = [
         answer:0
     },
     {
-        question:"What should you have for a propper pour?",
+        question:"What should you have for a proper pour?",
         options:["Approximately a half an inch of foam head. Weizens and Belgian ales can have 1.5 inches of head",
                 "Approximately 3 inches of foam head. Weizens and Belgian ales can have 4-6 inches of head",
                 "Approximately 1 inch of foam head. Weizens and Belgian ales can have 2-4 inches of head",
@@ -481,7 +481,7 @@ const questions = [
                 "Gueuze",
                 "Bière de Garde"],
         answer:1
-    } */
+    } 
 ]
 
 // ------- Modal adjusted from W3 schools//
@@ -636,8 +636,41 @@ function displayResults(){
 
 }
 
-
 startButton.addEventListener("click", startTest);
+
+
+// adapted countdown from falak786 on codepen
+
+function startTimer(){
+var count = document.getElementById("timer");
+var sec = 1800;
+function secPass(){
+    "use strict";
+    var min = Math.floor(sec/60)
+    var remSec = sec % 60;
+
+    if (remSec < 10){
+        remSec = "0" + remSec;
+    }
+    if (min <10){
+        min = "0"+min;
+    }
+    count.innerHTML = min + ":" + remSec;
+
+    if (sec > 0){
+        sec = sec - 1;
+    } else {
+        clearInterval(countDown);
+        testFinished();
+    }
+
+}
+var secpass;
+var countDown = setInterval(function(){
+    "use strict";
+    secPass();
+}, 1000);
+}
 
 function startTest(){
     startButton.classList.add("hide");
@@ -647,6 +680,7 @@ function startTest(){
 
     setAvailableQuestions();
     newQuestion();
+    startTimer();
 }
 
 
