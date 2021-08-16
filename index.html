@@ -30,7 +30,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Rules</a>
+        <a class="nav-link" id="rules-link">Rules</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
@@ -38,12 +38,17 @@
     </ul>
   </div>
 </nav>
-
+<div id="rules-modal" class="modal hide">
+  <div class="rules-modal-content">
+    <span class="close">&times;</span>
+    <h4 class="text-center">Rules</h4>
+  </div>
+</div>
 <section>
   <div class="jumbotron jumbotron-fluid" id="jumbotron">
     <div class="container text-center main-container">
       <div id="home" class="">
-        <h1>What is CBS?</h1>
+        <h1>What is a Certified Beer Server?</h1>
         <div class="row">
           <div class="col d-none d-sm-block">
             <img src="assets/images/brewdog-beer-being-poured (1).jpg" alt="Beer Being Poured" class="home-picture">

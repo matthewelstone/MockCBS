@@ -483,6 +483,28 @@ const questions = [
         answer:1
     } */
 ]
+
+// ------- Modal adjusted from W3 schools//
+var modal = document.getElementById("rules-modal");
+var btn = document.getElementById("rules-link");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function(){
+    modal.style.display="block";
+}
+span.onclick = function(){
+    modal.style.display= "none";
+}
+
+window.onclick = function(event){
+    if (event.target == modal){
+        modal.style.display = "none";
+    } 
+}
+
+
+
+
 //-----adding constants 
 const startButton = document.getElementById("start-test");
 const home = document.getElementById("home");
