@@ -10,7 +10,7 @@ const questions = [
     },   
     {  
         question: "Which of these beers has the highest perceived bitterness?",
-        options: ["Kolsch",
+        options: ["Kölsch",
                 "Bohemian Pilsner",
                 "Doppelbock",
                 "German Pilsner"],
@@ -273,11 +273,29 @@ const questions = [
         answer:3
     },
     {
+        question:"Which American ale has highly assertive perceived bitterness, is dark gold to dark amber in colour, and has a high ABV?",
+        options:["American Barleywine",
+                "Imperial IPA",
+                "American Imperial Stout",
+                "American Brown Ale"],
+        answer:1
+
+    },
+    {
+        question:"What are some malt flavours typically associated with pale beers?",
+        options:["Uncooked flour, bread dough",
+                "White Bread, Wheat bread, water cracker",
+                "Toast, caramel, piecrust",
+                "Nutty, toffee, chocolate"],
+        answer:0
+
+    },
+    {
         question:"Which American ale has highly assertive perceived bitterness, is light amber to light brown in colour, and has a high to very high ABV?",
         options:["American Barleywine",
                 "Imperial IPA",
                 "American Imperial Stout",
-                "AMerican Brown Ale"],
+                "American Brown Ale"],
         answer:0
     },
     {
@@ -290,7 +308,7 @@ const questions = [
     },
     {
         question:"Which style is associated with the Rhine Valley of Germany?",
-        options:["Kolsch",
+        options:["Kölsch",
                 "Marzen",
                 "Helles bock",
                 "Hefeweizen"],
