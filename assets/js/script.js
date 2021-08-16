@@ -321,6 +321,166 @@ const questions = [
                 "Flanders Red",
                 "Dubbel"],
         answer:3
+    },
+    {
+        question:"What flavours and aromas would most likely come from hops?",
+        options:["Roasty, chocolaty",
+                "Floral, earthy",
+                "Bread dough, bread crust",
+                "Banana, clove"],
+        answer:1
+    },
+    {
+        question:"What flavours and aromas would most likely come from malt?",
+        options:["Nutty, toast",
+                "Citrus, resin",
+                "Peppery, tart",
+                "Banana, clove"],
+        answer:0
+    },
+    {
+        question:"What flavours and aromas would most likely come from yeast?",
+        options:["Roasty, chocolaty",
+                "Floral, earthy",
+                "Bread dough, bread crust",
+                "Banana, clove"],
+        answer:3
+    },
+    {
+        question:"Which is most true about the primary differences between lager and ale yeast?",
+        options:["Lager yeast likes to ferment a a lower temperature than ale yeast and results in a less characterful yeast profile in the final beer, allowing the malt or hops to play the central role",
+                "Ale yeast likes to ferment a a lower temperature than lager yeast and results in a less characterful yeast profile in the final beer, allowing the malt or hops to play the central role",
+                "Lager yeast prefers to ferment at a higher temperature than ale yeast and results in a more characterful yeast profile in the final beer that often plays the central role",
+                "Lager yeast prefers to ferment at a lower temperature than ale yeast and results in a more spicy yeast profile in the final beer that balances pefectly with the malt character"],
+        answer:0
+    },
+    {
+        question:"A bartender would use a glass rinser before pouring a draft beer into a glass in order to?",
+        options:["Clean remnants of old beer from the glass",
+                "Rinse out any remaining sanitizer and dust",
+                "Rinse off any lipstick or any other oily residue on the glass",
+                "To impress the customer"],
+        answer:1
+    },
+    {
+        question:"Which beer is not an example of an American style that originated in Europe?",
+        options:["American IPA",
+                "American Pale Ale",
+                "Robust Porter",
+                "California Common"],
+        answer:3
+    },
+    {
+        question:"Frozen frosted glasswear:",
+        options:["Is acceptable, especially for pale lagers",
+                "Is not recomended, can cause foaming and makes beer too cold",
+                "Is recomended if the draft system temperature is too warm",
+                "Is not recomended, causes glasswear to break more easily"],
+        answer:1
+    },
+    {
+        question:"To change a common keg you must:",
+        options:["Grip the keg coupler handle, pull out and raise to the 'up' or 'off' position to disengage. Turn the coupler 90 degrees counterclockwise to unseat it. Lift it off the keg, seat it on the new keg and do the same in reverse",
+                "Unscrew the keg coupler counterclockwise to disengage. Lift it off the keg, seat it on the new keg and do the same in reverse",
+                "Grip the keg coupler handle, turn the coupler 90 degrees counterclockwise to unseat it. Lift it off the keg, seat it on the new keg and do the same in reverse",
+                "Wait for the bar back to get to it"],
+        answer:0
+    },
+    {
+        question:"If a draft system has foam-on-beer (FOB) detectors:",
+        options:["They will fill the draft line with beer when the keg runs out",
+                "They need to be reset after a keg change, usually by venting to release foam and gas from the chamber",
+                "They must be cleaned in-line at least every three months during the regular cleaning",
+                "It is most likely a direct draw draft system"],
+        answer:1 
+    },
+    {
+        question:"What is the most popular style of beer in the world?",
+        options:["German Pilsner",
+                "Czech Premium Pale Lager",
+                "American Lager",
+                "IPA"],
+        answer:2
+    },
+    {
+        question:"Which brown to roasty beer associated with London and the industrial revolution era has a pronounced perceived bitterness and a normal to elevated ABV?",
+        options:["Porter",
+                "Irish Stout",
+                "Sweet Stout",
+                "Mild"],
+        answer:0
+    },
+    {
+        question:"Which gold coloured beer has a low perceived bitterness and an elevated ABV of 6-7%. It typically features a subtle spicy phenol character",
+        options:["American Blond",
+                "Belgian Golden Strong Ale",
+                "American IPA",
+                "Belgian Blond"],
+        answer:3
+    },
+    {
+        question:"What are some malt flavours typically associated with amber beers?",
+        options:["White bread, wheat bread, water cracker",
+                "Toast, caramel, piecrust",
+                "Nutty, toffee, chocolate, dark/dried fruit",
+                "Roast, burnt, coffee"],
+        answer:1
+    },
+    {
+        question:"What are some hop aromas and flavours typically associated with German and Czech hops?",
+        options:["Earthy, woody",
+                "Piney,citrus",
+                "Resiny, herbal",
+                "Floral, spicy"],
+        answer:3
+    },
+    {
+        question:"How much does water typically take up of a beer?",
+        options:["60%",
+                "70%",
+                "80%",
+                "90%"],
+        answer:3
+    },
+    {
+        question:"Which golden to brown German beer is descended from monastic tradition, was known as 'liquid bread' and has an elevated to high ABV?",
+        options:["Helles Bock",
+                "Doppelbock",
+                "Oktoberfest",
+                "Belgian Dubbel"],
+        answer:1
+    },
+    {
+        question:"Which beer is similar to a Tripel,but is cleaner, simpler, lighter and drier? Duvel is the classic example. its perceived bitterness is moderate. Color is gold. ABV is high to very high.",
+        options:["Belgian Blonde",
+                "Belgian Golden Strong",
+                "Belgian Pale",
+                "Saison"],
+        answer:1
+    },
+    {
+        question:"What is the typical draft system operating temperature?",
+        options:["38°F",
+                "36°F",
+                "34°F",
+                "32°F"],
+        answer:0
+    },
+    {
+        question:"What should you have for a propper pour?",
+        options:["Approximately a half an inch of foam head. Weizens and Belgian ales can have 1.5 inches of head",
+                "Approximately 3 inches of foam head. Weizens and Belgian ales can have 4-6 inches of head",
+                "Approximately 1 inch of foam head. Weizens and Belgian ales can have 2-4 inches of head",
+                "Very little head. Weizens and Belgian ales can have 1 inch of head"],
+        answer:2
+    },
+    {
+        question:"What beer style is typically brewed with salt?",
+        options:["Eisbock",
+                "Gose",
+                "Gueuze",
+                "Bière de Garde"],
+        answer:1
     }
 ]
 //-----adding constants 

@@ -27,7 +27,9 @@
     font-size:larger;
 }
 
-
+.jumbotron{
+    min-height: 500px;
+}
 
 
 /* -------------------- Results Table   */
@@ -38,8 +40,10 @@
     margin-bottom: 10px;
     width: 75%;
     text-align: left;
+    min-height: 350px;
 }
-.results-table th,.results-table tr{
-    border: solid black 1px
+.results-table th,.results-table td{
+    border: solid black 1px;
+    padding-left: 10px
     
 }
