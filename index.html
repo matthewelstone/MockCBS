@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBS Mock</title>
+    <!-- Bootstrap links-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <!-- Fontawesome link -->
     <script rel="preconnect" src="https://kit.fontawesome.com/99d79fa7bf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="assets/style.css" type="text/css">
 
+    <!-- Fonts from Google Fonts --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,13 +40,19 @@
 </nav>
 
 <section>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid" id="jumbotron">
     <div class="container text-center main-container">
       <div id="home" class="">
         <h1>What is CBS?</h1>
-       <!-- Text from the Cicerone.org website-->
-        <p>Great beer service begins with the fundamentals: beer clean glassware, a proper pour, and beer that hasn’t been ruined by improper handling. When properly executed, these elements showcase the beer as the brewer intended. And in today’s beer world, every dialog between server and guest begins with talk of beer styles and flavors. The Cicerone Certified Beer Server exam assesses these skills to recognize those individuals who are best prepared to sell or serve a wide range of beers.</p>
-    
+        <div class="row">
+          <div class="col d-none d-sm-block">
+            <img src="assets/images/brewdog-beer-being-poured (1).jpg" alt="Beer Being Poured" class="home-picture">
+          </div> 
+            <!-- Text from the Cicerone.org website-->
+          <div class="col">  
+            <p class="cicerone-text">Great beer service begins with the fundamentals: beer clean glassware, a proper pour, and beer that hasn’t been ruined by improper handling. When properly executed, these elements showcase the beer as the brewer intended. And in today’s beer world, every dialog between server and guest begins with talk of beer styles and flavors. The Cicerone Certified Beer Server exam assesses these skills to recognize those individuals who are best prepared to sell or serve a wide range of beers.</p>
+          </div>
+        </div>
         <button type="button" class="btn btn-success" id="start-test">Start Mock Test</button>
       </div>
       <div id="test-container" >
@@ -62,6 +74,7 @@
     </div>
     <div id="results-container" class="container text-center hide">
       <h2>Results</h2>
+      <h4 id="did-they-pass"></h4>
       <table class="results-table">
         <tr>
           <th> 

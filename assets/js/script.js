@@ -39,7 +39,7 @@ const questions = [
                 "Bitterness",
                 "Carbonation"],
         answer:2
-    },
+    },/*
     {
         question:"Which beer style typically has the highest ABV?",
         options:["Marzen",
@@ -481,7 +481,7 @@ const questions = [
                 "Gueuze",
                 "Bière de Garde"],
         answer:1
-    }
+    } */
 ]
 //-----adding constants 
 const startButton = document.getElementById("start-test");
@@ -493,12 +493,14 @@ const options = document.getElementById("options");
 const nextButton = document.getElementById("next-div");
 const score = document.getElementById("score");
 const resultsContainer = document.getElementById("results-container");
+const jumbotron = document.getElementById("jumbotron");
 
 let numberOfQuestions = document.getElementById("total-number-of-questions");
 let correctInTable = document.getElementById("display-correct-answers");
 let wrongInTable = document.getElementById("display-wrong-answers");
 let percentage = document.getElementById("display-percentage");
 let finalScore = document.getElementById("total-score");
+let congratulationsComisorations = document.getElementById("did-they-pass");
 
 let questionCounter = 0;
 let currentQuestion ;
@@ -595,8 +597,20 @@ function displayResults(){
     numberOfQuestions.innerHTML = questions.length; 
     correctInTable.innerHTML = correctAnswers;
     wrongInTable.innerHTML = wrongAnswers;
-    percentage.innerHTML = (correctAnswers/questions.length)*100 +"%";
+    percentage.innerHTML = ((correctAnswers/questions.length)*100).toFixed(1) +"%";
     finalScore.innerHTML = correctAnswers + "/" + questions.length;
+    
+    var passPercentage =(correctAnswers/questions.length)*100;
+    if ( passPercentage >= 75 ){
+        console.log("PASS")
+        congratulationsComisorations.innerHTML = "Congratulations! you passed!</br> Now its time to sit the real thing!";
+        jumbotron.classList.add("pass");
+    }
+    else{
+        console.log("FAIL");
+        congratulationsComisorations.innerHTML = "Sorry you didn't pass this time. <br>Study some more and try again.";
+        jumbotron.classList.add("fail");
+    }
 
 }
 

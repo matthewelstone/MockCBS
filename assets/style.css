@@ -4,6 +4,21 @@
     display: none;
 }
 
+.body{
+    font-family: "roboto";
+}
+.home-picture{
+    height:400px;
+    padding: 15px 5px 15px 5px;
+}
+.cicerone-text{
+    padding: 15px 15px 15px 5px;
+}
+h1,h2,h4,h5{
+    font-family: "Hahmlet";
+}
+
+
 .option{
     padding:10px;
     border: solid black 2px;
@@ -25,6 +40,7 @@
 #question-number, #question-text{
     font-weight:700;
     font-size:larger;
+    font-family:"Hahmlet";
 }
 
 .jumbotron{
@@ -44,6 +60,14 @@
 }
 .results-table th,.results-table td{
     border: solid black 1px;
-    padding-left: 10px
-    
+    padding-left: 10px;
+}
+.results-table td{
+    font-weight:700;
+}
+.pass{
+    background-color: #46F544;
+}
+.fail{
+    background-color: #F54936;
 }
