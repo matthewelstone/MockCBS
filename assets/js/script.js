@@ -567,6 +567,7 @@ for(let i=0; i<optionsLength; i++){
     option.setAttribute("onclick","getResult(this)");
     }
 questionCounter++;
+nextButton.classList.add("hide");
 }
 
 function getResult(optionElement){
@@ -588,6 +589,7 @@ function getResult(optionElement){
         }
     };
     alreadyAnswered();
+    nextButton.classList.remove("hide");
 
 };
 function alreadyAnswered(){

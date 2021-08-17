@@ -100,18 +100,16 @@ h1,h2,h4,h5{
 
 
 
-
 .timer{
     text-align: right;
-
 }
 
 .option{
+    margin-top:5px;
     padding:10px;
     border: solid black 2px;
     margin: 2px;
 }
-
 .correct{
     background-color:green;
 }
@@ -128,7 +126,9 @@ h1,h2,h4,h5{
     font-weight:700;
     font-size:larger;
     font-family:"Hahmlet";
-
+}
+#question-text{
+    padding-bottom: 15px;
 }
 
 .jumbotron{
