@@ -4,9 +4,13 @@
     display: none;
 }
 
+
 .body{
     font-family: "Roboto";
+    background-color: #e7e7e7;
+    color: #313639;
 }
+
 .home-picture{
     height:400px;
     padding: 15px 5px 15px 5px;
@@ -17,6 +21,23 @@
 h1,h2,h4,h5{
     font-family: "Hahmlet", 'Times New Roman', Times, serif;
 }
+
+/*------------------Navbar */
+.navbar{
+   background-color: #f1f1f1;
+   color: #161718;
+
+}
+
+
+.nav-link{
+    transition: 0.35s;
+}
+
+.nav-link:hover{
+    color:rgba(0,0,0,0.80);
+}
+
 
 /*----------------- Rules Modal */
 /*--- adjusted from w3schools */
@@ -84,11 +105,39 @@ h1,h2,h4,h5{
     font-weight:700;
     font-size:larger;
     font-family:"Hahmlet";
+
 }
 
 .jumbotron{
     min-height: 500px;
+    background-color: rgba(42,39,38,0.25);
+    color: #161718;
+
 }
+
+
+/* ---------Footer*/
+
+.socials{
+    text-align: center;
+   
+}
+
+.social-link{
+    font-size: 40px;
+    margin: 5px;
+    color: #161718;;
+    transition: 0.35s;
+    
+}
+
+.social-link:hover{
+    color: rgba(0,0,0,0.75);
+    text-decoration: none;
+}
+
+
+
 
 
 /* -------------------- Results Table   */
