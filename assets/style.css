@@ -22,11 +22,35 @@ h1,h2,h4,h5{
     font-family: "Hahmlet", 'Times New Roman', Times, serif;
 }
 
+
+
+/* ----------------------------buttons */
+.btn-success{
+    background-color: #161718;
+    border :none;
+    margin-top:   10px;
+}
+
+.btn-success:hover{
+    background-color: rgba(0,0,0,0.75);
+}
+.btn-main{
+    background-color: #161718;
+    border :none;
+    margin-top:   10px;
+    color: #f1f1f1;
+}
+.btn-main:hover{
+    background-color: rgba(0,0,0,0.75);
+    color: #f1f1f1
+
+}
+
+
 /*------------------Navbar */
 .navbar{
    background-color: #f1f1f1;
    color: #161718;
-
 }
 
 .nav-link{
@@ -162,4 +186,18 @@ h1,h2,h4,h5{
 }
 .fail{
     background-color: #F54936;
+}
+
+/*----------- contact.html */
+form{
+    
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact-header{
+    margin-top:10px;
+
 }
