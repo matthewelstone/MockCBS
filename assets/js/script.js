@@ -17,7 +17,7 @@ const questions = [
         answer: 3
     },
     {
-        question:"a common exception to the three tier system for alcohol sales is?",
+        question:"A common exception to the three tier system for alcohol sales is?",
         options: ["A bar that runs out of a certain beer can buy it at a grocery storeand sell it to consumers", 
                 "A bottle shop can go to a special bottle release at a brewery, purchase bottles and sell them to consumers",
                 "A brewery can operate a taproom where they can sell to consumers",
@@ -170,10 +170,10 @@ const questions = [
     },
     {
         question:"Which statement is the most accurate?",
-        options:["American ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruitly character,  while many Belgian ale yeast strains are extremely characterful and create fruity and spicy characteristics",
-                "British ale yeast strains are typically quite 'clean', German ale yeast strains commonly create a more fruitly character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics",
-                "Belgian ale yeast strains are typically quite 'clean', American ale yeast strains commonly create a more fruitly character,  while many British ale yeast strains are extremely characterful and create fruity and spicy characteristics",
-                "German ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruitly character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics"],
+        options:["American ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruity character,  while many Belgian ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "British ale yeast strains are typically quite 'clean', German ale yeast strains commonly create a more fruity character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "Belgian ale yeast strains are typically quite 'clean', American ale yeast strains commonly create a more fruity character,  while many British ale yeast strains are extremely characterful and create fruity and spicy characteristics",
+                "German ale yeast strains are typically quite 'clean', British ale yeast strains commonly create a more fruity character,  while many American ale yeast strains are extremely characterful and create fruity and spicy characteristics"],
         answer:0
     },
     {
@@ -299,11 +299,11 @@ const questions = [
         answer:0
     },
     {
-        question:"Whih is most true?",
-        options:["German hafeweizens have a 'clean' yeast character, whereas American wheat beer has clove and banana yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
-                "German hafeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range",
-                "German hafeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character and can be slightly hoppier. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
-                "German hafeweizens have a clove and banana yeast character and can be slightly hoppier, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range"],
+        question:"Which is most true?",
+        options:["German hefeweizens have a 'clean' yeast character, whereas American wheat beer has clove and banana yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
+                "German hefeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range",
+                "German hefeweizens have a clove and banana yeast character, whereas American wheat beer has a 'clean' yeast character and can be slightly hoppier. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the normal range",
+                "German hefeweizens have a clove and banana yeast character and can be slightly hoppier, whereas American wheat beer has a 'clean' yeast character. They're both cloudy from wheat protein and yeast that is in suspension. They both have ABVs in the elevated range"],
         answer:2
     },
     {
