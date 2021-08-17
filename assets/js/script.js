@@ -113,7 +113,7 @@ const questions = [
         answer:1
     },
     {
-        question:"What's the affect of serving a beer too cold?",
+        question:"What's the effect of serving a beer too cold?",
         options:["The consumer will experience less aroma and flavour",
                 "It will be overly foamy at the tap",
                 "It will taste sweeter",
