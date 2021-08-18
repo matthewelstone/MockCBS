@@ -78,23 +78,23 @@ I made all of my wireframes using Balsamiq. Making one for each page showing how
 
 - Index 
 [Mobile](assets/images/readmeimages/phone-index.png)
-[Tablet]
-[Web]
+[Tablet](assets/images/readmeimages/tablet-index.png)
+[Web](assets/images/readmeimages/web-index.png)
 
 - Instructions 
-[Mobile]
-[Tablet]
-[Web]
+[Mobile](assets/images/readmeimages/instructions-phone.png)
+[Tablet](assets/images/readmeimages/instructions-tablet.png)
+[Web](assets/images/readmeimages/instructions-web.png)
 
 - Contact
-[Mobile]
-[Tablet]
-[Web]
+[Mobile](assets/images/readmeimages/phone-contact.png)
+[Tablet](assets/images/readmeimages/tablet-contact.png)
+[Web](assets/images/readmeimages/web-contact.png)
 
 - Result
-[Mobile]
-[Tablet]
-[Web]
+[Mobile](assets/images/readmeimages/phone-results.png)
+[Tablet](assets/images/readmeimages/tablet-results.png)
+[Web](assets/images/readmeimages/web-results.png)
 
 ## Features
 ### Current Features
