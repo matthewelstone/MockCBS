@@ -4,7 +4,7 @@
 
 <img src="assets/images/readmeimages/amiresponsive.png">
 
-This website was created for my Milestone Two Interactive Frontend Development Project. I wanted to make a mock exam site for the Cicerone Certified Beer Server exam. The user will have half an hour to answer sixty multiple choice questions with a passing mark of 45/60 just as in the actual exam. 
+This website was created for my Milestone Two Interactive Frontend Development Project. I wanted to make a mock exam site for the Cicerone Certified Beer Server exam. The user will have half an hour to answer sixty randomised multiple choice questions with a passing mark of 45/60 just as in the actual exam. 
 
 ## Contents
 
@@ -17,7 +17,7 @@ This website was created for my Milestone Two Interactive Frontend Development P
 - [Features](#features)
    
   - [Current Features](#current-features)
-  - [Features which I want to implement in the future](#Features-which-i-want-to-implement-in-the-future)
+  - [Features which I want to implement in the future](#Features-which-I-want-to-implement-in-the-future)
 
 - [Technologies Used](#technologies-used)
 
@@ -38,28 +38,67 @@ This website was created for my Milestone Two Interactive Frontend Development P
 
 - **First Time Visitor Goals**
 
-- **Returning Visitor Goals**
+- As a first time visitor, I want to easily understand the main purpose of the site.
+- As a first time visitor, I want to be able to easily navigate through the site.
+- As a first time visitor, I expect the site to be responsive so that I can view it on any device. 
+- As a first time visitor, I want to be able to understand how the test works. 
+- As a first time visitor, I want the site to be visually appealing.
 
-- **Frequent Visitor Goals.**
+- **Returning/ Frequent Visitor Goals.**
+
+- As a returning visitor, I want to be able to contact the owner with any comments or questions that I might have.
+
+- As a returning visitor, I want to be able to access any social media links so that i can follow them on my chosen platform.
+
+- As a returning visitor, I want to be provided with a varied order of questions each time that I take the exam. 
 
 ### Owner Goals
-- 
+1. I want the site to work as intended incrementing the questions and score.
+2. I want the user to have a different order of questions each time that they take the exam.
+3. I want the user to be able to navigate easily through the different pages of the site.
+4. I want the site to be attractive, responsive and easy to use. 
+5. I want the users to easily be able to contact the site owner.
 
   ### Design
+
+I wanted the design of the website to fit in with the Cicerone websites very clean look and to compliment this. 
+I wanted the design to be very minimal with very few pictures or other features to distract away from the test. 
+I wanted to continue these minimal theme across the site so I kept the same colour scheme across the different pages. 
 
 - ### Colour scheme
 
 - ### Typography
 
-- ### Imigary
+The two fonts I have used for this project are Hahmlet and Roboto both imported from Google fonts. 
+The Hahmlet font has been used for the header elements and for the instructions. I paired this with the complimentary font of Roboto for all of the other text.
  
 - ### Wireframes
 
 I made all of my wireframes using Balsamiq. Making one for each page showing how the page would change for each screen size. 
 
+- Index 
+[Mobile](assets/images/readmeimages/phone-index.png)
+[Tablet]
+[Web]
+
+- Instructions 
+[Mobile]
+[Tablet]
+[Web]
+
+- Contact
+[Mobile]
+[Tablet]
+[Web]
+
+- Result
+[Mobile]
+[Tablet]
+[Web]
+
 ## Features
 ### Current Features
-### Features which i want to implement in the future
+### Features which I want to implement in the future
 
 
 ### Technologies Used
