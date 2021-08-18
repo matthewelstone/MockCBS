@@ -1,104 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project One /  Me And The Moon
 
-Welcome Matt Elstone,
+[View the live project here](https://matthewelstone.github.io/MockCBS/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+<img src="assets/images/readmeimages/amiresponsive.png">
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Contents
 
-A blue button should appear to click: _Make Public_,
+- [User Expreience](#user-experience)
 
-Another blue button should appear to click: _Open Browser_.
+  - [User Stories](#user-stories)
+  - [Owner Goals](#owner-goals)
+  - [Design](#design)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [Features](#features)
+   
+  - [Current Features](#current-features)
+  - [Features which I want to implement in the future](#Features-which-i-want-to-implement-in-the-future)
 
-A blue button should appear to click: _Make Public_,
+- [Technologies Used](#technologies-used)
 
-Another blue button should appear to click: _Open Browser_.
+- [Testing](#testing)
+  - [User Stories](#user-stories) 
+  - [Owner Goals](#owner-goals)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [HTML and CSS Testing](#html-and-css-testing)
+  - [Known Bugs](#known-bugs)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [Deployment](#deployment)
 
-To log into the Heroku toolbelt CLI:
+- [Credits](credits)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Experience 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Stories
 
-------
+- **First Time Visitor Goals**
 
-## Release History
+- **Returning Visitor Goals**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **Frequent Visitor Goals.**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Owner Goals
+- 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  ### Design
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- ### Colour scheme
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- ### Typography
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- ### Imigary
+ 
+- ### Wireframes
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I made all of my wireframes using Balsamiq. Making one for each page showing how the page would change for each screen size. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
+### Current Features
+### Features which i want to implement in the future
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Technologies Used
+## Languages Used
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
+3. [JS](https://en.wikipedia.org/wiki/JavaScript)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Frameworks, Libraries, Programs Used
+1. [Bootstrap v4.6.0](https://getbootstrap.com/)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+2. [Google Fonts](https://fonts.google.com/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+3. [Git](https://git-scm.com/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+4. [GitHub](https://github.com/)
 
-------
+5. [GitPod](https://www.gitpod.io/)
 
-## FAQ about the uptime script
+6. [Visual Studio Code](https://code.visualstudio.com/)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+7. [Font Awesome](https://fontawesome.com/)
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+8. [Balsamiq](https://balsamiq.com/)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+9. [TinyPNG](https://tinypng.com/)
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+10. [Chrome Devtools](https://developer.chrome.com/docs/devtools/)
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+11. [Am I Responsive](http://ami.responsivedesign.is/)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Testing 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Testing User Stories and Site Goals
 
----
+### First Time Visitor Goals
 
-Happy coding!
+### Returning Visitor Goals
+
+### Frequent Visitor Goals.
+
+### Owner Goals
+
+### Lighthouse Testing
+
+### HTML and CSS Testing
+
+### Known Bugs
+
+### Deployment
+
+### Github Pages
+
+### Forking the Repository
+
+### Cloning the Repository
+
+### Credits
+
+- [Bootstrap](https://getbootstrap.com/) was used throughout the site to help style the pages and to make the site responsive.
+
+
+### Achnowledgements
+- Code Institute.
+- My mentor Akshat Garg.
+- My colleagues at BrewDog checking the quiz questions.
+- Mini Feb team 2021 For help with feedback through the last few months.
