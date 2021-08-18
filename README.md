@@ -122,7 +122,7 @@ The design of the project was kept very similar to the wireframes.  There wasn't
 - A list of questions that the user answered incorrectly at the end of the exam.
 - A leader board with answers correct and the time that they took to complete the exam
 
-### Technologies Used
+## Technologies Used
 
 ## Languages Used
 1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -185,31 +185,46 @@ Chrome Devtools was used throughout the process helping style the site and help 
 ### First Time Visitor Goals
 
 **As a first time visitor, I want to easily understand the main purpose of the site.**
+The first thing that you are faced with on the home page is a short paragraph taken from the Cicerone website where they quickly explain what the certification is about.
 
 **As a first time visitor, I want to be able to easily navigate through the site.**
+From the home page the user has just one button to click on the page to start the mock test once they click this they continue through the test which is all very self explanitory.  At the end of the test they are presented with a Home button which refreshes the page and takes them back to index.html.
+There is also a navbar at the top of the page throughout which is very easy to navigate through.
 
 **As a first time visitor, I expect the site to be responsive so that I can view it on any device.**
 
+By keeping the layout of the design very simple and similar across all devices it easily adapts to the screen size which is displayed on. 
+This has been tested across a variety of phones tablets and desktops.
+
 **As a first time visitor, I want to be able to understand how the test works.** 
+
+There is a instructions link in the nav bar which is always displayed at the top of the page. This brings up a modal which clearly and precisely explains the test.
 
 **As a first time visitor, I want the site to be visually appealing.**
 
+I have asked colleagues, family members and members of the slack community for their honest feedback on the design and layout of the test.  It has recieved possitive reviews from the minimalistic layout and subtle colour scheme.
 
 ### Returning/ Frequent Visitor Goals
 
 **As a returning visitor, I want to be able to contact the owner with any comments or questions that I might have.**
+There is a contact page that will send an email straight to the page owner. The email will not send if all of the required field are not filled in and then a modal will pop up telling you that the email has been sent.
 
 **As a returning visitor, I want to be able to access any social media links so that i can follow them on my chosen platform.**
+These are found at the bottom of each page and will open each social media page in its own tab.
 
 **As a returning visitor, I want to be provided with a varied order of questions each time that I take the exam.**
+The questions are randomised each time using a Math.random function so that each test will be slightly different. 
 
 ### Owner Goals
 
 **I want the site to work as intended incrementing the questions and score.**
+With each answer chosen either the correctAnswers or wrongAnswers variable will be incremented so that at the end of the exam they can be displayed.
 
 **I want the user to have a different order of questions each time that they take the exam.**
+The questions are randomised each time using a Math.random function so that each test will be slightly different. 
 
 **I want the user to be able to navigate easily through the different pages of the site.**
+
 
 **I want the site to be attractive, responsive and easy to use.**
 
