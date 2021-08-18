@@ -505,6 +505,9 @@ window.onclick = function(event){
 
 
 
+
+
+
 //-----adding constants 
 const startButton = document.getElementById("start-test");
 const home = document.getElementById("home");

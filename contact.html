@@ -48,8 +48,8 @@
   <div class="rules-modal-content">
     <span class="close">&times;</span>
     <h4 class="text-center">Instructions</h4>
-    <ul>
-      <li class="rules-list">
+    <ul class="rules-list">
+      <li>
         <p>The certified Beer Server Exam is an exam consisting of 60 multiple choice questions</p>
       </li>
       <li>
@@ -71,12 +71,19 @@
   </div>
 </div>
 <section class="text-center form-container">
+  <div id="send-email-modal" class="modal hide">
+    <div class="send-email-modal-content">
+      <span class="close" id="close-email-confirmation">&times;</span>
+      <h4 class="text-center">Email Sent!</h4>
+    </div>
+
+  </div>
 <h2 class="contact-header">Contact us</h2>
     <form onsubmit="return sendMail(this);">
         <input type="text" class="form-control" id="fullname" placeholder="Name:" name="name" required/>
         <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email:" required/>
         <textarea rows="6" name="messageInformation" id="messageInformation" class="form-control" placeholder="Type your message here..."></textarea>
-        <button type="submit" class="btn form-btn btn-success">Send Email</button>
+        <button type="submit" id="submit-form" class="btn form-btn btn-success">Send Email</button>
     </form>
 
 

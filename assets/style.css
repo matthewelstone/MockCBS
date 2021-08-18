@@ -98,7 +98,13 @@ h1,h2,h4,h5{
     font-family: "Hahmlet", 'Times New Roman', Times, serif ;
 }
 
-
+.send-email-modal-content{
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
 
 .timer{
     text-align: right;
