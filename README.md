@@ -67,6 +67,8 @@ I wanted to continue these minimal theme across the site so I kept the same colo
 
 - ### Colour scheme
 
+- I chose a very minimal colour scheme for this project as I didn't want anything to be taking away or distracting the user from the actual exam. I then chose standard green and red colours as they are widely associated with correct and incorrect answers. 
+
 - ### Typography
 
 The two fonts I have used for this project are Hahmlet and Roboto both imported from Google fonts. 
@@ -96,12 +98,34 @@ I made all of my wireframes using Balsamiq. Making one for each page showing how
 [Tablet](assets/images/readmeimages/tablet-results.png)
 [Web](assets/images/readmeimages/web-results.png)
 
+The design of the project was kept very similar to the wireframes.  There wasn't a huge amount of change that I wanted to introduce between the different screen sizes apart from adding in an image to the index.html on larger screen sizes. Initially I had thought about on larger devices having two questions stacked together side by side however I decided against this as I thought that it may have made the answers look too crammed together in the longer options.
+
 ## Features
 ### Current Features
-### Features which I want to implement in the future
+- Responsive to different device sizes.
+- Social media links that open up in a seperate tab and will take the user to the home page of the selected link.
+- A pop up modal when the user clicks on the instructions.
+- A pop up modal when confirming that the email has sent when someone sends an email through the contact page.
+- A start button which starts the exam.
+- A question counter that displays what number question the user is on out of 60.
+- A timer that displays how long the user has left of the 30 minute time limit.
+- Questions that are shuffled each time the exam is taken.
+-A question with four possible answers.  When an answer is selected the answer will turn green if correct, red if incorrect and the correct answer will show green.
+- A next button that displays once you choose an answer.
+- A results table that displays once you have either answered all of the questions or the time limit has been reached.
+- The table will display a message congratulating you for passing and turning green or saying to study more for not passing and turning red.
+- The table displays correct answers, wrong answers, and percentage correct. 
+- A contact page that sends an email directly to the site owner.
 
+### Features which I want to implement in the future
+- A larger bank of questions to pull from.
+- A seperate test to take first about the Cicerone program.
+- Links to learning materials 
+- A list of questions that the user answered incorrectly at the end of the exam.
+- A leader board with answers correct and the time that they took to complete the exam
 
 ### Technologies Used
+
 ## Languages Used
 1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
 2. [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -162,11 +186,36 @@ Chrome Devtools was used throughout the process helping style the site and help 
 
 ### First Time Visitor Goals
 
-### Returning Visitor Goals
+**As a first time visitor, I want to easily understand the main purpose of the site.**
 
-### Frequent Visitor Goals.
+**As a first time visitor, I want to be able to easily navigate through the site.**
+
+**As a first time visitor, I expect the site to be responsive so that I can view it on any device.**
+
+**As a first time visitor, I want to be able to understand how the test works.** 
+
+**As a first time visitor, I want the site to be visually appealing.**
+
+
+### Returning/ Frequent Visitor Goals
+
+**As a returning visitor, I want to be able to contact the owner with any comments or questions that I might have.**
+
+**As a returning visitor, I want to be able to access any social media links so that i can follow them on my chosen platform.**
+
+**As a returning visitor, I want to be provided with a varied order of questions each time that I take the exam.**
 
 ### Owner Goals
+
+**I want the site to work as intended incrementing the questions and score.**
+
+**I want the user to have a different order of questions each time that they take the exam.**
+
+**I want the user to be able to navigate easily through the different pages of the site.**
+
+**I want the site to be attractive, responsive and easy to use.**
+
+**I want the users to easily be able to contact the site owner.**
 
 ### Lighthouse Testing
 
