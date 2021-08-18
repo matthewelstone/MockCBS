@@ -38,28 +38,26 @@ This website was created for my Milestone Two Interactive Frontend Development P
 
 - **First Time Visitor Goals**
 
-- As a first time visitor, I want to easily understand the main purpose of the site.
-- As a first time visitor, I want to be able to easily navigate through the site.
-- As a first time visitor, I expect the site to be responsive so that I can view it on any device. 
-- As a first time visitor, I want to be able to understand how the test works. 
-- As a first time visitor, I want the site to be visually appealing.
+ 1. As a first time visitor, I want to easily understand the main purpose of the site.
+ 2. As a first time visitor, I want to be able to easily navigate through the site.
+ 3. As a first time visitor, I expect the site to be responsive so that I can view it on any device. 
+ 4. As a first time visitor, I want to be able to understand how the test works. 
+ 5. As a first time visitor, I want the site to be visually appealing.
 
 - **Returning/ Frequent Visitor Goals.**
 
-- As a returning visitor, I want to be able to contact the owner with any comments or questions that I might have.
-
-- As a returning visitor, I want to be able to access any social media links so that i can follow them on my chosen platform.
-
-- As a returning visitor, I want to be provided with a varied order of questions each time that I take the exam. 
+ 1. As a returning visitor, I want to be able to contact the owner with any comments or questions that I might have.
+ 2. As a returning visitor, I want to be able to access any social media links so that i can follow them on my chosen platform.
+ 3. As a returning visitor, I want to be provided with a varied order of questions each time that I take the exam. 
 
 ### Owner Goals
-1. I want the site to work as intended incrementing the questions and score.
-2. I want the user to have a different order of questions each time that they take the exam.
-3. I want the user to be able to navigate easily through the different pages of the site.
-4. I want the site to be attractive, responsive and easy to use. 
-5. I want the users to easily be able to contact the site owner.
+ 1. I want the site to work as intended incrementing the questions and score.
+ 2. I want the user to have a different order of questions each time that they take the exam.
+ 3. I want the user to be able to navigate easily through the different pages of the site.
+ 4. I want the site to be attractive, responsive and easy to use. 
+ 5. I want the users to easily be able to contact the site owner.
 
-  ### Design
+### Design
 
 I wanted the design of the website to fit in with the Cicerone websites very clean look and to compliment this. 
 I wanted the design to be very minimal with very few pictures or other features to distract away from the test. 
@@ -67,7 +65,7 @@ I wanted to continue these minimal theme across the site so I kept the same colo
 
 - ### Colour scheme
 
-- I chose a very minimal colour scheme for this project as I didn't want anything to be taking away or distracting the user from the actual exam. I then chose standard green and red colours as they are widely associated with correct and incorrect answers. 
+I chose a very minimal colour scheme for this project as I didn't want anything to be taking away or distracting the user from the actual exam. I then chose standard green and red colours as they are widely associated with correct and incorrect answers. 
 
 - ### Typography
 
