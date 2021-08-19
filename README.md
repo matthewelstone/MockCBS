@@ -232,10 +232,14 @@ There is a contact page that will send an email straight to the page owner. The 
 
 ### Lighthouse Testing
 
+My page didn't have a meta description which brought my search emgine optimisarion down so I added that in
+
+
 ### HTML and CSS Testing
 To test my HTML I used the [W3C HTML Validation Service](https://validator.w3.org/)
 
 The site came back with a warning that I had an empty heading. This heading was to be filled by the java script but I filled it with some placeholder text.
+I also had a button which was a sibling of an anchor tag.  I fixed this by changing the button into a span.
 
 <img src="assets/images/readmeimages/htmlvalidation.png" height="200px">
 
