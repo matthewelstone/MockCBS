@@ -236,10 +236,12 @@ There is a contact page that will send an email straight to the page owner. The 
 To test my HTML I used the [W3C HTML Validation Service](https://validator.w3.org/)
 
 The site came back with a warning that I had an empty heading. This heading was to be filled by the java script but I filled it with some placeholder text.
+
 <img src="assets/images/readmeimages/htmlvalidation.png" height="200px">
 
 To test my CSS I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 The code came back with no errors.
+
 <img src="assets/images/readmeimages/cssvalidation.png" height="200px">
 
 ### Known Bugs
