@@ -171,11 +171,14 @@ Tiny PNG was used to compress the image down to a smaller size so that the webpa
 
 Chrome Devtools was used throughout the process helping style the site and help fix any bugs which I found.
 
-11. [Am I Responsive](http://ami.responsivedesign.is/) was used for the the Image at the top of the repository.
+11. [Am I Responsive](http://ami.responsivedesign.is/)
+Was used for the the Image at the top of the repository.
 
-12. [EmailJS](https://www.emailjs.com/) was used to handle the email services from the contacts page.
+12. [EmailJS](https://www.emailjs.com/) 
+Was used to handle the email services from the contacts page.
 
-13. [jQuery](https://jquery.com/) was used as a JavaScript library to speed up the writing of JavaScript.
+13. [jQuery](https://jquery.com/)
+Was used as a JavaScript library to speed up the writing of JavaScript.
 
 
 ## Testing 
@@ -234,6 +237,7 @@ There is a contact page that will send an email straight to the page owner. The 
 
 My page didn't have a meta description which brought my search emgine optimisarion down so I added that in to boost the search engine optimisation.
 All of the other fields were already pretty high.
+
 <img src="assets/images/readmeimages/lighthousevalidation.png" height="100px">
 
 ### HTML and CSS Testing
@@ -291,11 +295,11 @@ If you wish to clone the repository you can do the following.
 - [Bootstrap](https://getbootstrap.com/) was used throughout the site to help style the pages and to make the site responsive.
 - [W3 Schools](https://www.w3schools.com/) For their modal template.
 - [Falak 786 on CodePen](https://codepen.io/falak786/pen/oddYYd)For their 30 minute count down which I addapted from.
--[BrewDog](https://www.brewdog.com/uk/?gclid=CjwKCAjw3_KIBhA2EiwAaAAlioGxBrGIhDH9ouid_3I9pS5UWnb7BOlGym90yEhnzSdGnTUulFaG3BoCJ74QAvD_BwE) for use of their image and quiz questions taken from their training materials.
--[FontAwesome](https://fontawesome.com/) for the use of their fonts for the social media icons.
--[GoogleFonts](https://fonts.google.com/) for the ise of the fonts for the website.
--[EmailJS](https://www.emailjs.com/) for use of their email services for the contact page.
--[Cicerone Certification Program](https://www.cicerone.org/us-en) Is the certification board that the mock site is made to be a test for.
+- [BrewDog](https://www.brewdog.com/uk/?gclid=CjwKCAjw3_KIBhA2EiwAaAAlioGxBrGIhDH9ouid_3I9pS5UWnb7BOlGym90yEhnzSdGnTUulFaG3BoCJ74QAvD_BwE) for use of their image and quiz questions taken from their training materials.
+- [FontAwesome](https://fontawesome.com/) for the use of their fonts for the social media icons.
+- [GoogleFonts](https://fonts.google.com/) for the ise of the fonts for the website.
+- [EmailJS](https://www.emailjs.com/) for use of their email services for the contact page.
+- [Cicerone Certification Program](https://www.cicerone.org/us-en) Is the certification board that the mock site is made to be a test for.
 
 ### Achnowledgements
 - Code Institute.
