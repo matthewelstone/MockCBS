@@ -192,16 +192,13 @@ From the home page the user has just one button to click on the page to start th
 There is also a navbar at the top of the page throughout which is very easy to navigate through.
 
 **As a first time visitor, I expect the site to be responsive so that I can view it on any device.**
-
 By keeping the layout of the design very simple and similar across all devices it easily adapts to the screen size which is displayed on. 
 This has been tested across a variety of phones tablets and desktops.
 
 **As a first time visitor, I want to be able to understand how the test works.** 
-
 There is a instructions link in the nav bar which is always displayed at the top of the page. This brings up a modal which clearly and precisely explains the test.
 
 **As a first time visitor, I want the site to be visually appealing.**
-
 I have asked colleagues, family members and members of the slack community for their honest feedback on the design and layout of the test.  It has recieved possitive reviews from the minimalistic layout and subtle colour scheme.
 
 ### Returning/ Frequent Visitor Goals
@@ -224,15 +221,26 @@ With each answer chosen either the correctAnswers or wrongAnswers variable will 
 The questions are randomised each time using a Math.random function so that each test will be slightly different. 
 
 **I want the user to be able to navigate easily through the different pages of the site.**
-
+From the home page the user has just one button to click on the page to start the mock test once they click this they continue through the test which is all very self explanitory.  At the end of the test they are presented with a Home button which refreshes the page and takes them back to index.html.
+There is also a navbar at the top of the page throughout which is very easy to navigate through.
 
 **I want the site to be attractive, responsive and easy to use.**
+ I have asked colleagues, family members and members of the slack community for their honest feedback on the design and layout of the test.  It has recieved possitive reviews from the minimalistic layout and subtle colour scheme.
 
 **I want the users to easily be able to contact the site owner.**
+There is a contact page that will send an email straight to the page owner. The email will not send if all of the required field are not filled in and then a modal will pop up telling you that the email has been sent.
 
 ### Lighthouse Testing
 
 ### HTML and CSS Testing
+To test my HTML I used the [W3C HTML Validation Service](https://validator.w3.org/)
+
+The site came back with a warning that I had an empty heading. This heading was to be filled by the java script but I filled it with some placeholder text.
+<img src="assets/images/readmeimages/htmlvalidation.png" height="200px">
+
+To test my CSS I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+The code came back with no errors.
+<img src="assets/images/readmeimages/cssvalidation.png" height="200px">
 
 ### Known Bugs
 
