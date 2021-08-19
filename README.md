@@ -294,11 +294,11 @@ If you wish to clone the repository you can do the following.
 
 - [Bootstrap](https://getbootstrap.com/) was used throughout the site to help style the pages and to make the site responsive.
 - [W3 Schools](https://www.w3schools.com/) For their modal template.
-- [Falak 786 on CodePen](https://codepen.io/falak786/pen/oddYYd)For their 30 minute count down which I addapted from.
-- [BrewDog](https://www.brewdog.com/uk/?gclid=CjwKCAjw3_KIBhA2EiwAaAAlioGxBrGIhDH9ouid_3I9pS5UWnb7BOlGym90yEhnzSdGnTUulFaG3BoCJ74QAvD_BwE) for use of their image and quiz questions taken from their training materials.
-- [FontAwesome](https://fontawesome.com/) for the use of their fonts for the social media icons.
-- [GoogleFonts](https://fonts.google.com/) for the ise of the fonts for the website.
-- [EmailJS](https://www.emailjs.com/) for use of their email services for the contact page.
+- [Falak 786 on CodePen](https://codepen.io/falak786/pen/oddYYd) For their 30 minute count down which I addapted from.
+- [BrewDog](https://www.brewdog.com/uk/?gclid=CjwKCAjw3_KIBhA2EiwAaAAlioGxBrGIhDH9ouid_3I9pS5UWnb7BOlGym90yEhnzSdGnTUulFaG3BoCJ74QAvD_BwE) For use of their image and quiz questions taken from their training materials.
+- [FontAwesome](https://fontawesome.com/) For the use of their fonts for the social media icons.
+- [GoogleFonts](https://fonts.google.com/) For the ise of the fonts for the website.
+- [EmailJS](https://www.emailjs.com/) For use of their email services for the contact page.
 - [Cicerone Certification Program](https://www.cicerone.org/us-en) Is the certification board that the mock site is made to be a test for.
 
 ### Achnowledgements
