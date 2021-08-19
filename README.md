@@ -232,8 +232,9 @@ There is a contact page that will send an email straight to the page owner. The 
 
 ### Lighthouse Testing
 
-My page didn't have a meta description which brought my search emgine optimisarion down so I added that in
-
+My page didn't have a meta description which brought my search emgine optimisarion down so I added that in to boost the search engine optimisation.
+All of the other fields were already pretty high.
+<img src="assets/images/readmeimages/lighthousevalidation.png" height="100px">
 
 ### HTML and CSS Testing
 To test my HTML I used the [W3C HTML Validation Service](https://validator.w3.org/)
