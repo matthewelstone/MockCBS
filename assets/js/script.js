@@ -534,13 +534,16 @@ let availableOptions = [];
 let correctAnswers = 0 ;
 let wrongAnswers = 0 ;
 
+
+
+// adapted quiz from Coding Nepal 
+
 function setAvailableQuestions(){
         const totalQuestions = questions.length;
         for(let i=0; i<totalQuestions; i++){
             availableQuestions.push(questions[i]);
         }
 };
-
 
 function newQuestion(){
     questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " +questions.length;
