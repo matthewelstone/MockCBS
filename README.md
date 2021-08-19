@@ -230,8 +230,6 @@ There is also a navbar at the top of the page throughout which is very easy to n
 **I want the users to easily be able to contact the site owner.**
 There is a contact page that will send an email straight to the page owner. The email will not send if all of the required field are not filled in and then a modal will pop up telling you that the email has been sent.
 
-### 
-
 ### Lighthouse Testing
 
 My page didn't have a meta description which brought my search emgine optimisarion down so I added that in to boost the search engine optimisation.
